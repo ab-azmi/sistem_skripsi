@@ -1,0 +1,10 @@
+POST http://127.0.0.1:8000/contracts
+Content-Type: application/json
+
+{
+    "name":"Test Contract",
+    "content":"Test Content"
+}
+
+###
+GET http://127.0.0.1:8000/contracts
