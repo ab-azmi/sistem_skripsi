@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from app.db import  get_session
-from app.models import Contract, Hypothesis, ContractHypothesis, Label
+from app.models import Contract, Hypothesis, ContractHypothesis
 from fastapi import UploadFile, File
 import json
 
