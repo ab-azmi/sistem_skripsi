@@ -11,9 +11,9 @@ GET http://127.0.0.1:8000/hypothesis
 
 ###
 POST http://127.0.0.1:8000/hypothesis/import
-Content-Type: application/json
 
-[
+{
+    [
     {
         "name":"No reverse engineering",
         "content":"Receiving Party shall not reverse engineer any objects which embody Disclosing Party's Confidential Information."
@@ -84,3 +84,4 @@ Content-Type: application/json
     },
     
 ]
+}
