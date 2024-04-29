@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import Abstract from '@/components/pages/Abstract.vue';
 import References from '@/components/pages/References.vue';
 import GambarComponent from '@/components/pages/GambarComponent.vue';
+import Tabels from '@/components/pages/Tabels.vue';
 
 </script>
 
@@ -35,7 +36,7 @@ import GambarComponent from '@/components/pages/GambarComponent.vue';
            <GambarComponent/>
         </TabsContent>
         <TabsContent value="tabel" class="mt-4">
-            Change your password here.
+            <Tabels/>
         </TabsContent>
         <TabsContent value="pdf" class="mt-4">
             Change your password here.
