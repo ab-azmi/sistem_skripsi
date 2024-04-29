@@ -19,12 +19,6 @@ import {
         <NavigationMenu>
           <NavigationMenuList class="flex gap-7 text-white">
             <NavigationMenuItem>
-              <NavigationMenuTrigger class="cursor-pointer">Item One</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <NavigationMenuLink>Link</NavigationMenuLink>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
               <NavigationMenuLink class="cursor-pointer">
                 <RouterLink class="hover:bg-white/50 hover:text-blue-500 hover:rotate-90 transition-all rounded-md px-4 py-2 font-semibold" active-class="bg-white text-blue-500" to="/">Home</RouterLink>
               </NavigationMenuLink>

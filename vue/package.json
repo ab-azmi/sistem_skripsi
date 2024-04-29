@@ -11,8 +11,11 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@vueuse/core": "^10.9.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "embla-carousel": "^8.0.2",
+    "embla-carousel-vue": "^8.0.2",
     "lucide-vue-next": "^0.376.0",
     "pinia": "^2.1.7",
     "radix-vue": "^1.7.2",

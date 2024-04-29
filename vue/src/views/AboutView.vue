@@ -16,7 +16,7 @@ import {
       <Card class="mt-12">
         <CardHeader>
           <div class="w-fit rounded-lg overflow-hidden m-auto -mt-20 mb-2">
-            <img src="https://source.unsplash.com/random/100x100" alt="" srcset="">
+            <img src="/images/me.jpg" alt="" srcset="" class="w-[100px]">
           </div>
           <CardTitle>Abdillah Azmi</CardTitle>
           <CardDescription>
@@ -92,7 +92,8 @@ import {
         </CardContent>
         <CardFooter>
           <div class="flex gap-3 mt-4 justify-center w-full">
-            <a href="">
+            <!-- Insta -->
+            <a href="https://www.instagram.com/ab_azmi1010?igsh=MTJxMGF5ZHJiZ2pibQ==" target="_blank">
               <div class="bg-blue-500 rounded-lg p-2">
                 <span class="text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 448 512">
@@ -102,7 +103,8 @@ import {
                 </span>
               </div>
             </a>
-            <a href="">
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/in/abdillah-azmi-4a2111232/" target="_blank">
               <div class="bg-blue-500 rounded-lg p-2">
                 <span class="text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 448 512">
@@ -112,7 +114,8 @@ import {
                 </span>
               </div>
             </a>
-            <a href="">
+            <!-- github -->
+            <a href="https://github.com/ab-azmi" target="_blank">
               <div class="bg-blue-500 rounded-lg p-2">
                 <span class="text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 496 512">
