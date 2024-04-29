@@ -41,7 +41,9 @@ import {
           </NavigationMenuList>
         </NavigationMenu>
         <div>
-          <button class="bg-slate-500 text-white px-3 py-1 rounded">Logo</button>
+          <a href="#" class="">
+            <img src="/images/unnes.png" alt="flag" class="w-10" />
+          </a>
         </div>
   
   
