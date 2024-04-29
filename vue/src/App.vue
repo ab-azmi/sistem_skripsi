@@ -9,9 +9,11 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle
 } from '@/components/ui/navigation-menu'
+import Toaster from '@/components/ui/toast/Toaster.vue'
 </script>
 
 <template>
+  <Toaster />
   <div class="w-full bg-blue-500 fixed top-0 h-28"></div>
   <div class="bg-gray-300/20 backdrop-blur-lg rounded-xl w-[95%] m-auto mt-7 p-7">
     <header>
